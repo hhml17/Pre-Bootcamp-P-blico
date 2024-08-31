@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: center; 
+    font-size: 10px;
+    color: white;
+}
+ 
+.box1 {
+    margin: 5px;
+    padding: 5%;
+   background-color: mediumaquamarine;
+    height: 100px;
+}
+
+.box2 {
+    margin: 5px;
+    padding: 5%;
+    background-color: purple;
+    height: 100px;
+}
+
+.box3 {
+    margin: 5px;
+    padding: 5%;
+    background-color: blue;
+    height: 100px;
+}
+
+
