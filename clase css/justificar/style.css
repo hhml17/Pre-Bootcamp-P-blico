@@ -1,0 +1,33 @@
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+}
+
+/* #dojo {
+    justify-content: flex-start;
+} */
+
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    /* Podemos ubicarlos en distintos lugares. Habilitemos nuestra alternativa favorita */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* También podemos aumentar o disminuir el espacio entre ellos*/
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-around; */
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+/* padding, border y margin. Además, vamos a utilizar Flexbox, */

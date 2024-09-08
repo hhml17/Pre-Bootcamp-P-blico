@@ -1,0 +1,11 @@
+.container {
+    width: 720px;
+    height: 250px;
+    background-color: silver;
+}
+.col {
+    width: 220px;
+    padding: 10px;
+    background-color: salmon;
+    display: inline-block;
+}

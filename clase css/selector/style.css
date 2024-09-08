@@ -70,22 +70,22 @@ h1.grupo {
     height: 50px;
 }
 
-/* Estilo para los párrafos dentro del contenedor*/
+
 #container p {
     font-size: 16px;
     background-color: #333;
 }
 
-/* Estilo para los párrafos dentro del contenedor*/
+
 
 #container p.highlight {
     font-weight: bold;
-    color: #ff0000; /* Rojo */
+    color: #ff0000; 
 }
 
 #container p {
     font-weight: bold;
-    color: #ffffff; /* Blanco */
+    color: #ffffff; 
 }
 
 
