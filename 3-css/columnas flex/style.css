@@ -1,0 +1,25 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+    position: static;
+}
+
+.div-absoluto {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+  }
+  .div-absoluto2 {
+    position: absolute;
+    top: 58px;
+    left: 37px;
+  }
+
+.div-relativo {
+    position: relative;
+    top: 50px;
+    left: 30px;
+  }
