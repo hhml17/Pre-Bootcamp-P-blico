@@ -1,0 +1,172 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #0056b3;
+}
+
+/* Columna de perfil */
+.perfil-header {
+    background-color: #00a2b8;
+    height: 100px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+
+#image {
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    transform: translateY(-50%);
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.perfil-column {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 5px;
+    margin-bottom: 20px;
+}
+
+.perfil-info h1 {
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 120px;
+    font-size: 24px;
+}
+
+.perfil-info h2 {
+    text-align: left;
+    padding-left: 120px;
+    color: #777;
+    font-size: 18px;
+}
+
+.perfil-info p {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+/* Tarjeta de Educación */
+.tarjeta-educacion {
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+}
+
+/* Columna derecha */
+.columna-derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0.3;
+}
+
+/* Conexiones */
+.conexiones {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-conexion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Botones para aceptar y rechazar conexiones */
+.btn-aceptar {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-rechazar {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-aceptar:hover {
+    background-color: #218838;
+}
+
+.btn-rechazar:hover {
+    background-color: #c82333;
+}

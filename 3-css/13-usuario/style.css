@@ -1,0 +1,52 @@
+.container {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+.navbar {
+    background-color: aqua;
+    height: 55px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+#img {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+}
+
+h1, h2 {
+    text-align: left;
+    margin-top: 30px;
+}
+
+p, a {
+    text-align: left;
+    display: block;
+}
+
+button {
+    font-size: 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+}

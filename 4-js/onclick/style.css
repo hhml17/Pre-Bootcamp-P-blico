@@ -1,0 +1,125 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #800020; /* Color de fondo del botón */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a60028; /* Color cuando se pasa el cursor */
+}
+
+.werner {
+    color: #800020;
+    font-size: 100px;
+
+}
+
+.mascotas {
+    margin-bottom: 20px;
+}
+
+.mascota {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.mascota h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.mascota p {
+    font-size: 14px;
+    color: #555;
+}
+
+.like-btn {
+    padding: 8px 12px;
+    background-color: #0e1e75;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.like-btn:hover {
+    background-color: #3f32b9;
+}
+
+aside {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+aside h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#add-def-btn {
+    background-color: #228B22; 
+}
+
+#add-def-btn:hover {
+    background-color: #9ed39e;
+}

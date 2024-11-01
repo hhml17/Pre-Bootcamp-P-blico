@@ -1,0 +1,13 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

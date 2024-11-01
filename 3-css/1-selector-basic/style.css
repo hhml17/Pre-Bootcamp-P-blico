@@ -1,0 +1,34 @@
+.is-centered {
+    text-align: center;
+}
+
+.is-orange {
+    color: orange;
+}
+h1 {
+    color: blue;
+}
+p {
+    text-align: right;
+}
+
+.is-centered {
+    text-align: center;
+}
+
+.is-orange {
+    color: orange;
+}
+#container {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 25px;
+}

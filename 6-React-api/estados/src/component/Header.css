@@ -1,0 +1,14 @@
+/* src/components/Header/Header.css */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 2em;
+    color: #00274d;
+  }
+  

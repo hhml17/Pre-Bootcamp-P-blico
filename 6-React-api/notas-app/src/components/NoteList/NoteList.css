@@ -1,0 +1,32 @@
+/* src/components/NoteList/NoteList.css */
+.note-list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: black;
+  }
+  
+  .note-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .note-item button {
+    background-color: #dc3545;
+    color: rgb(149, 141, 141);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .note-item button:hover {
+    background-color: #c82333;
+  }
+  
