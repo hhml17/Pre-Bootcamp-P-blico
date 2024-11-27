@@ -1,6 +1,8 @@
+// routes/user.routes.js
 import express from 'express';
+import { getAllUsers, createUser } from '../controller/user.controller.js'; // Asegúrate de incluir .js
+
 const router = express.Router();
-import { getAllUsers, createUser } from '../controllers/user.controller.js';
 
 router.get('/', getAllUsers);
 router.post('/', createUser);

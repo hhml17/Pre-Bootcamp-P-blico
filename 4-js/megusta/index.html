@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network Feed</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>Network</h1>
+  </div>
+  <div class="container">
+    <div class="profile">
+      <img src="https://via.placeholder.com/100" alt="User Profile">
+      <p>Adrien Desplatz</p>
+    </div>
+    <div class="feed">
+      <h2>Your Feed</h2>
+      <div class="post">
+        <h3>Linn O.</h3>
+        <p>Acabo de configurar este nuevo bot de Discord, cuéntenme qué opinan ustedes. <a href="#">link</a></p>
+        <div class="likes">
+          <span id="likes1">0 like(s)</span>
+          <button onclick="likePost('likes1')">Like</button>
+        </div>
+      </div>
+      <div class="post">
+        <h3>Lina K.</h3>
+        <p>Acabo de terminar este <a href="#">nuevo comic</a>, denle un vistazo.</p>
+        <div class="likes">
+          <span id="likes2">0 like(s)</span>
+          <button onclick="likePost('likes2')">Like</button>
+        </div>
+      </div>
+      <div class="post">
+        <h3>Mateo H.</h3>
+        <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?</p>
+        <div class="likes">
+          <span id="likes3">0 like(s)</span>
+          <button onclick="likePost('likes3')">Like</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
